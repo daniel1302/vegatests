@@ -35,7 +35,4 @@ func TestQueryForBeGet(t *testing.T) {
 	verifyGetResponse(t, BeURLs, "block")
 	// verifyGetResponse(t, BeURLs, "tx_search") // Currently returns 500
 	verifyGetResponse(t, BeURLs, "unconfirmed_txs")
-	verifyGetResponse(t, BeURLs, "websocket")
-	verifyGetResponse(t, BeURLs, "websocket")
-	verifyGetResponse(t, BeURLs, "websocket")
 }
