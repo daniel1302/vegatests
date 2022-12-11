@@ -4,9 +4,8 @@ import "testing"
 
 var (
 	BeURLs = []string{
-		// "be.api1.vega.xyz",
-		// "be.api2.vega.xyz",
-		"be.api3.vega.xyz",
+		"be0.mainnet.vega.xyz",
+		"be1.mainnet.vega.xyz",
 		// "be.explorer.vega.xyz",
 	}
 )

@@ -20,10 +20,10 @@ const (
 
 var (
 	ApiURLs = []string{
-		// "api1.vega.xyz",
-		"api2.vega.xyz",
-		"api3.vega.xyz",
-		// "api.vega.xyz",
+		"api0.mainnet.vega.xyz",
+		"api1.mainnet.vega.xyz",
+		"api2.mainnet.vega.xyz",
+		"api3.mainnet.vega.xyz",
 	}
 
 	exampleGQLQuery = `{"operationName":"NetworkStats","variables":{},"query":"query NetworkStats {\nnodeData {\nstakedTotal\n}\nstatistics {\nstatus\n}\n}\n"}`
